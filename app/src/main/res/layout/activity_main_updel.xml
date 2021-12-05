@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:gravity="center"
+    android:background="@color/purple_200"
+    android:orientation="vertical"
+    tools:context=".MainUpdel">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/ic_shop" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update dan Hapus" />
+
+    <EditText
+        android:id="@+id/update_UID_akun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="UID akun" />
+
+    <EditText
+        android:id="@+id/update_IGN_akun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="IGN akun" />
+
+    <Button
+        android:id="@+id/btn_up"
+        android:layout_marginTop="20dp"
+        android:text="UPDATE"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#66A5AD"
+        android:backgroundTint="#07575B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_del"
+        android:text="HAPUS"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#66A5AD"
+        android:backgroundTint="#07575B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
